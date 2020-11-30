@@ -5,7 +5,7 @@ Version: 1.0.0
 */
 
 body {
-    background-color: rgba(0, 128, 0, 0.363);
+    background-color: white;
 }
 
 .site-title {
@@ -13,7 +13,7 @@ body {
 }
 
 .entry-categories-inner a {
-    color: white;
+    color: green;
 }
 
 body:not(.overlay-header) .primary-menu > li > a, body:not(.overlay-header) .primary-menu > li > .icon, .modal-menu a, .footer-menu a, .footer-widgets a, #site-footer .wp-block-button.is-style-outline, .wp-block-pullquote:before, .singular:not(.overlay-header) .entry-header a, .archive-header a, .header-footer-group .color-accent, .header-footer-group .color-accent-hover:hover {
@@ -38,4 +38,12 @@ body:not(.overlay-header) .primary-menu > li > a, body:not(.overlay-header) .pri
 
 .pagination-single-inner a {
     color: green !important;
+}
+
+#banner {
+    background-image: url('https://minuitsurterre.com/wp-content/uploads/2020/02/orient-chaussure-beskets-vegan-chaussures-MinuitSurTerre_Metamorphose-258.jpg');
+    height: 400px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
