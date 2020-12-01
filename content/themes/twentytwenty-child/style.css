@@ -68,3 +68,26 @@ Version: 1.0.0
     font-weight: bold;
     text-transform: uppercase;
 }
+
+/* FOOTER */
+
+#site-footer, .footer-nav-widgets-wrapper {
+    background-color: #fcc582 !important;
+}
+
+.footer-top {
+    border: none;
+}
+
+.footer-nav-widgets-wrapper a {
+    color: white !important;
+    font-size: 0.8em;
+}
+
+.footer-menu-wrapper {
+   margin: auto ;
+}
+
+.footer-nav-widgets-wrapper a:hover {
+    text-decoration: none;
+}
