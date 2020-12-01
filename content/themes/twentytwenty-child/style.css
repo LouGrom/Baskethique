@@ -4,8 +4,44 @@ Template: twentytwenty
 Version: 1.0.0
 */
 
+/* HEADER */
+
 .site-title {
-    color: green;
+    color: #77e0c4;
+}
+
+.header-inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.primary-menu a,
+.primary-menu a,
+.primary-menu {
+    color: black !important;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.primary-menu a:hover,
+.primary-menu a:focus,
+.primary-menu .current_page_ancestor {
+    color: #77e0c4 !important;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.primary-menu li.current-menu-item > a,
+.primary-menu li.current-menu-item > .link-icon-wrapper > a {
+    color: #77e0c4 !important;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.toggle-inner {
+    color: #77e0c4;
 }
 
 #banner {
@@ -14,4 +50,21 @@ Version: 1.0.0
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    opacity: 0.72;    
+}
+
+#banner h1{
+    margin: 0;
+    text-align: center;
+    padding-top: 1.5em;
+    font-weight: bold;
+}
+
+/* CONTENT */
+
+.entry-title, .entry-title a {
+    font-size: 40px;
+    color: #77e0c4 !important;
+    font-weight: bold;
+    text-transform: uppercase;
 }
