@@ -4,40 +4,8 @@ Template: twentytwenty
 Version: 1.0.0
 */
 
-body {
-    background-color: white;
-}
-
 .site-title {
     color: green;
-}
-
-.entry-categories-inner a {
-    color: green;
-}
-
-body:not(.overlay-header) .primary-menu > li > a, body:not(.overlay-header) .primary-menu > li > .icon, .modal-menu a, .footer-menu a, .footer-widgets a, #site-footer .wp-block-button.is-style-outline, .wp-block-pullquote:before, .singular:not(.overlay-header) .entry-header a, .archive-header a, .header-footer-group .color-accent, .header-footer-group .color-accent-hover:hover {
-    color: green !important ;
-}
-
-.search-submit {
-    background-color: rgba(0, 128, 0, 0.363) !important;
-}
-
-.submit {
-    background-color: green !important;
-}
-
-.comment-reply-link{
-    background-color: green !important;
-}
-
-.comment-content a {
-    color: green !important;
-}
-
-.pagination-single-inner a {
-    color: green !important;
 }
 
 #banner {
